@@ -4735,6 +4735,17 @@ body.rtl .elementor-4877 .elementor-element.elementor-element-df996b4 {
 }
 
 .gal-img{
-	width: 95%;
+	width: 450px;
+	height: 300px;
 	max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.galley{
+		flex-direction: column;
+	}
+
+	.gal-img{
+		height: auto;
+	}
 }
